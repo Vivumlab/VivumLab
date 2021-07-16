@@ -16,7 +16,7 @@ jobs:
         with:
           fetch-depth: 0
         # Lint Commit Messages
-      - uses: wagoid/commitlint-github-action@v3.1.4
+      - uses: wagoid/commitlint-github-action@v4.0.2
       - name: Setup Node
         uses: actions/setup-node@v2.1.5
         with:
@@ -73,7 +73,7 @@ jobs:
         with:
           fetch-depth: 0
         # Lint Commit Messages
-      - uses: wagoid/commitlint-github-action@v3.1.4
+      - uses: wagoid/commitlint-github-action@v4.0.2
       - name: Setup Node
         uses: actions/setup-node@v2.1.5
         with:
